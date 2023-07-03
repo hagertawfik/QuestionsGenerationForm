@@ -1,0 +1,78 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  
+    <div class="container m-auto mt-5">
+      <h2 class="text-center text-color">Questions Generation Form</h2>
+      <form>
+      <div class="row ">
+          
+          <div class="mb-3 ">
+              <label for="exampleFormControlInput1" class="form-label">activity Category</label>
+              <select name="activityCategories" id="exampleFormControlInput1" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option value="comparing">comparing</option>
+              </select>
+            </div>
+          <div class="mb-3 ">
+              <label for="exampleFormControlInput2" class="form-label">Domain</label>
+              <select name="domain" id="exampleFormControlInput2" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option value="science">science</option>
+              </select>
+            </div>
+          <div class="mb-3 ">
+              <label for="exampleFormControlInput3" class="form-label">SubDomain</label>
+              <select name="subDomain" id="exampleFormControlInput3" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option value="physics">physics</option>
+              </select>
+            </div>
+          <div class="mb-3 ">
+              <label for="exampleFormControlInput4" class="form-label">concept</label>
+              <select name="concept" id="exampleFormControlInput4" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option value="energy">energy</option>
+              </select>
+            </div>
+          <div class="mb-3 ">
+              <label for="exampleFormControlInput5" class="form-label" >complexity</label>
+              <select name="complexity" id="exampleFormControlInput5" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </div>
+           
+      
+      </div>
+      <div class="mb-3 ">
+        <label for="exampleFormControlInput5" class="form-label">lesson Number</label>
+        <select name="lessonNumber" id="lessonnumber" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option value="1">lesson1</option>
+          <option value="2">lesson2</option>
+          <option value="3">lesson3</option>
+          <option value="4">lesson4</option>
+        </select>
+      </div>
+    
+    </form>
+    <div class="mb-5 pt-5 w-100   text-center">
+    <button class="btn btn-bg p-3 w-25" id="ourbtn" type="submit">Submit</button>
+  </div>
+    <div id="ourDisplayDiv" class="mt-2 text-center w-100 fw-bold" >
+      
+    </div>
+    </div>
+      
+   <script src="index.js"></script> 
+</body>
+</html>

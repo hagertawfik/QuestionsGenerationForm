@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(181, 177, 177, 0.504)
+}
+.btn-bg{
+    background-color: rgba(0, 0, 255, 0.73);
+    color: white;
+}
+
+label{
+    font-size: larger;
+}
+.text-color{
+    color: rgb(88, 88, 101);
+}
